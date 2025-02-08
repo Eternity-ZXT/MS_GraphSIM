@@ -3,13 +3,13 @@
 % name_r: reference point cloud
 % name_d: distorted point cloud
 % r_b: blurring radius
-% r_s£ºshrinking rate
+% r_s：shrinking rate
 % n_s: the number of scales that are fused into a multiscale score
 
 clear
-name_fast = ('redandblack10000_4.ply');
-name_r = ('redandblack.ply'); 
-name_d = ('redandblack_0_0.ply'); 
+name_fast = ('point cloud sample\redandblack10000_4.ply');
+name_r = ('point cloud sample\redandblack.ply'); 
+name_d = ('point cloud sample\redandblack_0_0.ply'); 
 r_b = 1/2; r_s = 1/3; n_s = 3;
 
 tic;
